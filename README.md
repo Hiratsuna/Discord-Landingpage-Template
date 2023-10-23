@@ -35,3 +35,7 @@
 >>  - twitch, github, youtube
 
 ---
+> ### Designs 
+>> Will maybe do the designs via [Midjourney](https://www.midjourney.com/), some [Canva](https://www.canva.com/) and other tools from the [Wiki](https://casualnerding.love).
+>>
+>> 
