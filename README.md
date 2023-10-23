@@ -1,14 +1,37 @@
-# Responsive Halloween Website 🎃
-## [Watch it on youtube](https://youtu.be/lgo1CEPZoxg)
-### Responsive Halloween Website 🎃
-
-- Responsive Halloween Website Using HTML, CSS & JavaScript.
-- Contains animations when scrolling.
-- It has three color designs (green, red and black)
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
-
-Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+> Forked from [Bedimcode](https://www.youtube.com/c/Bedimcode) 's Halloween Landing Page as a Template. 
 
 ![halloween](/preview.png)
+
+> Original Template [Repo](https://github.com/bedimcode/responsive-halloween-website) and it's [README](https://github.com/bedimcode/responsive-halloween-website#readme).
+>> This template can instantly be deployed and visualized on **GH Pages**.
+---
+
+> ### 69 Shades of Cringe - Discord Landing Page 
+>> Template components:
+>> -  3 piece slider - 3x designs without bg 
+>> -  Logo without bg
+>> -  3 piece shelf - 3x designs, 3x square
+>> -  1x call to action - 1x design, square-ish, no bg
+>> -  6x 'products' - 6x squares
+>> -  1x call to action - 1x design - rectangle 3:2ish - maybe no bg
+>> -  footer - 3x small social icons
+>> -  remove 'newsletter' & 'new arrivals'
+
+---
+
+> ### Sections
+>>  - Coding, Gaming, Memes
+>>  - 69 Shades Of Cringe Logo
+>>  - Music, Cool People, Stream News
+>>  - Watch live on Twitch - call to action
+>>  - 6 products:
+>>    - DnB
+>>    - Roast my Resume Section
+>>    - Free Udemy Courses
+>>    - Memes
+>>    - Pets
+>>    - Midjourney Designs
+>>  - Join in on the fun~
+>>  - twitch, github, youtube
+
+---
