@@ -79,7 +79,8 @@
                                 <div class="home__data">
                                     <h3 class="home__subtitle">Fun stuff and projects</h3>
                                     <h1 class="home__title">Casual Nerding <br> or <br> Nerding Casually?</h1>
-                                    <p class="home__description"><span id="count">-</span> Online Members
+                                    <p class="home__description">🟡 <span id="total-count">-</span> total members<br>
+                                    🟢 <span id="online-count">-</span> online members 
                                     </p>
 
                                     <div class="home__buttons">
@@ -286,12 +287,15 @@
             <a href="#" class="scrollup" id="scroll-up">
                 <i class='bx bx-up-arrow-alt scrollup__icon'></i>
             </a>
-        <script> (async() => {
-            const res = await fetch('https://discord.com/api/guilds/1017153619243573378/widget.json');
+        <script> 
+        (async() => {
+            const res = await fetch('https://discord.com/api/v9/invites/wkvjzC4xr8?with_counts=true');
             const data = await res.json();
-            if (!data.members) return;
-            document.querySelector('#count').innerHTML = data.members.length
-        })();</script>
+            const { approximate_member_count: total, approximate_presence_count: online } = data;
+            if (total) document.querySelector('#total-count').innerHTML = total;
+            if (online) document.querySelector('#online-count').innerHTML = online;
+        })();
+        </script>
 
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!--=============== SCROLL REVEAL ===============-->
