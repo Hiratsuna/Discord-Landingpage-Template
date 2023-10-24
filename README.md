@@ -1,7 +1,5 @@
 > Forked from [Bedimcode](https://www.youtube.com/c/Bedimcode) 's Halloween Landing Page as a Template. 
 
-![halloween](/preview.png)
-
 > Original Template [Repo](https://github.com/bedimcode/responsive-halloween-website) and it's [README](https://github.com/bedimcode/responsive-halloween-website#readme).
 >> This template can instantly be deployed and visualized on **GH Pages**.
 ---
