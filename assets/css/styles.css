@@ -698,9 +698,8 @@ button{
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
-  text-align: center;
   display: grid;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .footer__links{
