@@ -624,6 +624,7 @@ button{
 .footer{
   position: relative;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .footer__img-one,
@@ -651,6 +652,8 @@ button{
 
 .footer__container{
   row-gap: 2rem;
+  display: center;
+  justify-content: space-between;
 }
 
 .footer__logo{
@@ -660,6 +663,7 @@ button{
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
   color: var(--title-color);
+  justify-content: space-between;
 }
 
 .footer__logo-img{
@@ -668,11 +672,13 @@ button{
 
 .footer__description{
   margin-bottom: var(--mb-2-5);
+  justify-content: space-between;
 }
 
 .footer__social{
   display: flex;
   column-gap: .75rem;
+  justify-content: space-between;
 }
 
 .footer__social-link{
@@ -682,6 +688,7 @@ button{
   border-radius: .25rem;
   color: var(--title-color);
   font-size: 1rem;
+  justify-content: space-between;
 }
 
 .footer__social-link:hover{
@@ -691,17 +698,22 @@ button{
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
+  text-align: center;
+  display: grid;
+  justify-content: space-between;
 }
 
 .footer__links{
   display: grid;
   row-gap: .35rem;
+  justify-content: space-between;
 }
 
 .footer__link{
   font-size: var(--small-font-size);
   color: var(--text-color);
   transition: .3s;
+  justify-content: space-between;
 }
 
 .footer__link:hover{
@@ -713,6 +725,7 @@ button{
   text-align: center;
   font-size: var(--smaller-font-size);
   margin-top: 4.5rem;
+  justify-content: space-between;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -880,7 +893,8 @@ button{
   .footer__container{
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    column-gap: 1rem;
+    column-gap: 4rem;
+    justify-content: space-between;
   }
   .footer__img-two{
     right: initial;
@@ -986,6 +1000,7 @@ button{
 
   .footer__copy{
     margin-top: 6rem;
+    justify-content: space-between;
   }
 }
 
