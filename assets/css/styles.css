@@ -431,14 +431,14 @@ button{
   animation: floating 2s ease-in-out infinite;
 }
 
-/*=============== TRICK OR TREAT ===============*/
-.trick__container{
+/*=============== channel section===============*/
+.channel__container{
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
 }
 
-.trick__content{
+.channel__content{
   position: relative;
   background: var(--container-color);
   border-radius: 1rem;
@@ -447,29 +447,29 @@ button{
   overflow: hidden;
 }
 
-.trick__img{
+.channel__img{
   width: 90px;
   transition: .3s;
 }
 
-.trick__subtitle,
-.trick__price{
+.channel__subtitle,
+.channel__price{
   display: block;
 }
 
-.trick__subtitle{
+.channel__subtitle{
   font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.trick__title,
-.trick__price{
+.channel__title,
+.channel__price{
   color: var(--title-color);
   font-weight: var(--font-medium);
   font-size: var(--normal-font-size);
 }
 
-.trick__button{
+.channel__button{
   display: inline-flex;
   padding: .5rem;
   border-radius: .25rem .25rem .75rem .25rem;
@@ -478,37 +478,37 @@ button{
   bottom: 0;
 }
 
-.trick__icon{
+.channel__icon{
   font-size: 1.25rem;
   color: var(--title-color);
 }
 
-.trick__content:hover .trick__img{
+.channel__content:hover .channel__img{
   transform: translateY(-.5rem);
 }
 
-.trick__content:hover .trick__button{
+.channel__content:hover .channel__button{
   right: 0;
 }
 
-/*=============== DISCOUNT ===============*/
-.discount__container{
+/*=============== live ===============*/
+.live__container{
   background: var(--container-color);
   border-radius: 1rem;
   padding: 2.5rem 0 1.5rem;
   row-gap: .75rem;
 }
 
-.discount__data{
+.live__data{
   text-align: center;
 }
 
-.discount__title{
+.live__title{
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
 }
 
-.discount__img{
+.live__img{
   width: 200px;
   justify-self: center;
 }
@@ -567,7 +567,7 @@ button{
   color: var(--title-color);
 }
 
-.new__discount{
+.new__live{
   color: var(--first-color);
   font-size: var(--smaller-font-size);
   text-decoration: line-through;
@@ -785,7 +785,7 @@ button{
   }
 
   .category__container,
-  .trick__container{
+  .channel__container{
     grid-template-columns: .8fr;
     justify-content: center;
   }
@@ -863,13 +863,13 @@ button{
     width: 250px;
   }
 
-  .trick__container{
+  .channel__container{
     grid-template-columns: repeat(3, 200px);
     justify-content: center;
     gap: 2rem;
   }
 
-  .discount__container{
+  .live__container{
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     align-items: center;
@@ -877,11 +877,11 @@ button{
     padding: 3rem 0;
     border-radius: 3rem;
   }
-  .discount__img{
+  .live__img{
     width: 350px;
     order: -1;
   }
-  .discount__data{
+  .live__data{
     padding-right: 6rem;
   }
 
@@ -964,20 +964,20 @@ button{
     padding-right: 2rem;
   }
 
-  .trick__container{
+  .channel__container{
     gap: 3.5rem;
   }
-  .trick__content{
+  .channel__content{
     border-radius: 1.5rem;
   }
-  .trick__img{
+  .channel__img{
     width: 110px;
   }
-  .trick__title{
+  .channel__title{
     font-size: var(--h3-font-size);
   }
 
-  .discount__container{
+  .live__container{
     column-gap: 7rem;
   }
 
